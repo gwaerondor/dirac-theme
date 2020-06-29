@@ -17,10 +17,10 @@ But all credits go to the original author.
 
 
 # How to use
-## Get the file
+## 1. Get the file
 Clone this repo or simply download the `dirac-theme.el` source file.
 
-## Put the directory in the load path
+## 2. Put the directory in the load path
 Ensure that the `dirac-theme.el` file is in the `custom-theme-load-path`.
 You can put it in `~/.emacs.d/` which I think is the default
 `custom-theme-load-path`. Otherwise, add this to your `~/.emacs`:
@@ -32,7 +32,7 @@ You can put it in `~/.emacs.d/` which I think is the default
 You will need to evaluate this line. Restarting emacs is one way.
 Marking it and running `M-x eval-region RET` is another.
 
-## Load the theme
+## 3. Load the theme
 Load the theme with `M-x load-theme RET dirac RET`.
 `load-theme` issues a warning by default, since the theme can execute
 arbitrary elisp code. Press `y` to accept the warnings.

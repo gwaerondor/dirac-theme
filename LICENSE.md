@@ -1,4 +1,4 @@
-Dirac - a pastel color theme for emacs
+# Dirac - a pastel color theme for emacs
 Copyright (C) 2020 Robin Larsson
 
 This program is free software: you can redistribute it and/or modify
